@@ -14,5 +14,5 @@ async function getData() {
 btn.addEventListener("click", async () => {
   const slip = await getData(); 
   AdviceN.innerHTML = `ADVICE #${slip.id}`;
-  Advice.innerHTML = `${slip.advice}`;
+  Advice.innerHTML = `“ ${slip.advice} ”`;
 });
